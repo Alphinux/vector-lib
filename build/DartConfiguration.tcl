@@ -4,14 +4,14 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/timru/Documents/cpp/vectorlib
-BuildDirectory: C:/Users/timru/Documents/cpp/vectorlib/build
+SourceDirectory: C:/Users/Tim Ruser/Documents/Dev/cpp/vector-lib-cpp
+BuildDirectory: C:/Users/Tim Ruser/Documents/Dev/cpp/vector-lib-cpp/build
 
 # Where to place the cost data store
 CostDataFile: 
 
 # Site is something like machine.domain, i.e. pragmatic.crd
-Site: PC-Schule
+Site: PC-Home
 
 # Build name is osname-revision-compiler, i.e. Linux-2.4.2-2smp-c++
 BuildName: Win32-mingw32-make
@@ -21,14 +21,13 @@ LabelsForSubprojects:
 
 # Submission information
 SubmitURL: http://
-SubmitInactivityTimeout: 
 
 # Dashboard start time
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/CMake/bin/cmake.exe" "C:/Users/timru/Documents/cpp/vectorlib"
-MakeCommand: C:/Program\ Files/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
+ConfigureCommand: "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "C:/Users/Tim Ruser/Documents/Dev/cpp/vector-lib-cpp"
+MakeCommand: C:/Program\ Files\ (x86)/Microsoft\ Visual\ Studio/2019/BuildTools/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 
 # version control
@@ -45,7 +44,7 @@ SVNOptions:
 SVNUpdateOptions: 
 
 # Git options
-GITCommand: 
+GITCommand: C:/Program Files/Git/cmd/git.exe
 GITInitSubmodules: 
 GITUpdateOptions: 
 GITUpdateCustom: 
@@ -58,9 +57,9 @@ P4UpdateOptions:
 P4UpdateCustom: 
 
 # Generic update command
-UpdateCommand: 
+UpdateCommand: C:/Program Files/Git/cmd/git.exe
 UpdateOptions: 
-UpdateType: 
+UpdateType: git
 
 # Compiler info
 Compiler: C:/mingw64/bin/g++.exe

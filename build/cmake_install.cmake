@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/timru/Documents/cpp/vectorlib
+# Install script for directory: C:/Users/Tim Ruser/Documents/Dev/cpp/vector-lib-cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/timru/Documents/cpp/vectorlib/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Tim Ruser/Documents/Dev/cpp/vector-lib-cpp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
